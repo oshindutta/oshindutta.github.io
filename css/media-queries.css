@@ -49,6 +49,12 @@
 
    /* About Section
    ------------------------------------------------------------------- */
+   #left{
+      width: 100%;
+   }
+   #right{
+      width: 100%;
+   }
    #about .profile-pic {
       width: 114px;
       height: 114px;
@@ -59,6 +65,12 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
+   #leftr{
+      width: 100%;
+   }
+   #rightr{
+      width: 100%;
+   }
    #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
 
