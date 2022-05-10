@@ -32,8 +32,8 @@ header {
    position: relative;
    /*height: 800px;
    min-height: 500px;*/
-   height: 800px;
-   min-height: 500px;
+   height: 150px;
+   min-height: 150px;
    width: 100%;
    background: #161415 url(../images/header-background.JPG) no-repeat top center;
    background-size: cover !important;
@@ -50,11 +50,12 @@ header:before {
    height: 100%;
 }
 header .banner {
+   padding-top: 10px;
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 10px;
    text-align: center;
 }
 
@@ -65,11 +66,11 @@ header .banner-text h1 {
    /*color: #ff1;*/
    color: #11ABB0;
    letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin: 50px auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 23px/1.9em 'librebaskerville-regular', serif;
+   font: 15px/1.9em 'librebaskerville-regular', serif;
    color: #fff;
    /*color: #fff;*/
    /*color: #11ABB0;*/
@@ -200,6 +201,8 @@ ul#nav li.current a { color: #F06000; }
    float: left;
    width: 70%;
 }
+
+
 #right{
    float: right;
    width: 30%;
@@ -271,8 +274,6 @@ ul#nav li.current a { color: #F06000; }
 #rightr{
    float: right;
     width: 50%;
-   
-  
 
 }
 #resume {
