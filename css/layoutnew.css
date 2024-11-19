@@ -264,7 +264,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. published Section
 /* ------------------------------------------------------------------ */
 #leftr{
    float: left;
@@ -276,48 +276,117 @@ ul#nav li.current a { color: #F06000; }
     width: 50%;
 
 }
-#resume {
+#published {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#published a, #published a:visited  { color: #11ABB0; }
+#published a:hover, #published a:focus { color: #313131; }
 
-#resume h1 {
+#published h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#published h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#published h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
-
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#published ul {
+   list-style-type: disc; /* Use 'circle' or 'square' if preferred */
+   padding-left: 20px; /* Add some padding to align the bullets properly */
+   margin-top: 10px; /* Add some space above the list */
+   margin-bottom: 10px; /* Add some space below the list */
+}
+#published .header-col { padding-top: 9px; }
+#published .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#published .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#published .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#published .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. services Section
+/* ------------------------------------------------------------------ */
+#leftr{
+   float: left;
+   width: 50%;
+   
+}
+#rightr{
+   float: right;
+    width: 50%;
+
+}
+#services {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#services a, #services a:visited  { color: #11ABB0; }
+#services a:hover, #services a:focus { color: #313131; }
+
+#services h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#services h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#services h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+#services ul {
+   list-style-type: disc; /* Use 'circle' or 'square' if preferred */
+   padding-left: 20px; /* Add some padding to align the bullets properly */
+   margin-top: 10px; /* Add some space above the list */
+   margin-bottom: 10px; /* Add some space below the list */
+}
+#services .header-col { padding-top: 9px; }
+#services .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#services .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#services .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#services .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -677,6 +746,12 @@ margin: 0 0 1px 0;
 }
 #blog h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+}
+#blog ul {
+   list-style-type: disc; /* Use 'circle' or 'square' if preferred */
+   padding-left: 20px; /* Add some padding to align the bullets properly */
+   margin-top: 10px; /* Add some space above the list */
+   margin-bottom: 10px; /* Add some space below the list */
 }
 
 #blog .header-col { padding-top: 9px; }
